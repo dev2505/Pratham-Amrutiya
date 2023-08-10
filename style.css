@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:wght@700&family=Playfair+Display:wght@400;500;600&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;  
+    align-items: center;
+    border:2px solid black;
+    background-color:aquamarine;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200%;
+}
+
+
+/* display of link */
+ ul li {
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+/* animation on link */
+ ul li a {
+   text-decoration: none;
+   color: black;
+}
+
+/* Animation on link event */
+.navbar li a:hover{
+    border: 2px solid white;
+    background-color: blue;
+    color: rgb(250, 96, 0);
+}
